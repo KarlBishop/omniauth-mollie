@@ -13,7 +13,7 @@ module OmniAuth
 
       option :authorize_params, {
         :state => SecureRandom.hex(24),
-        :scope => 'payments.read customers.read subscriptions.read organizations.read'
+        :scope => 'payments.read payments.write refunds.read refunds.write customers.read customers.write subscriptions.read subscriptions.write organizations.read organizations.write profiles.read profiles.write mandates.read mandates.write invoices.read settlements.read'
       }
 
       def request_phase

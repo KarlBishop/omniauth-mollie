@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jens Kanis"]
   spec.email         = ["me@jenskanis.nl"]
 
-  spec.summary       = %q{Mollie Connect OAuth2 Strategy for OmniAuth 1.0.}
+  spec.summary       = %q{Mollie Connect OAuth2 Strategy for OmniAuth 2.0.}
   spec.homepage      = "https://github.com/jenskanis/omniauth-mollie"
   spec.license       = "MIT"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  
-  spec.add_dependency 'omniauth', '~> 1.3'
+
+  spec.add_dependency 'omniauth', '~> 2'
   spec.add_dependency 'omniauth-oauth2', '~> 1.4'
 end

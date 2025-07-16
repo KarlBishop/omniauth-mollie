@@ -4,7 +4,7 @@
 [![Gem Downloads](https://img.shields.io/gem/dt/omniauth-mollie.svg)](https://rubygems.org/gems/omniauth-mollie)
 [![License](https://img.shields.io/badge/License-MIT_License-blue.svg)](https://github.com/jenskanis/omniauth-mollie/blob/master/LICENSE)
 
-This is a OmniAuth 1.0 strategy for [Mollie Connect](https://www.mollie.com/en/docs/oauth/overview).
+This is a OmniAuth 2.0 strategy for [Mollie Connect](https://www.mollie.com/en/docs/oauth/overview).
 
 ## Installation
 
@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ### 1. Add the Rack Middleware and configure Mollie Credentials
 
-Add the Mollie provider to your OmniAuth initializer or create one in `config/initializers/omniauth.rb`. 
+Add the Mollie provider to your OmniAuth initializer or create one in `config/initializers/omniauth.rb`.
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
